@@ -109,7 +109,7 @@ class Partner {
 		retV
 	}
 	
-	//reicht die Anmeldung einer Anwendung an Partner durch
+	//reicht die Anmeldung einer Fremdanwendung an Partner durch
 	static Boolean appUserLogin(String name, String passwort) {
 		boolean retV = false
 		def RestBuilder rest = new RestBuilder()
